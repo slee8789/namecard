@@ -1,4 +1,4 @@
-package sclee.net.namecard;
+package sclee.net.namecard.ui;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,6 +12,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+
+import sclee.net.namecard.R;
 
 public class MainActivity extends AppCompatActivity {
 
