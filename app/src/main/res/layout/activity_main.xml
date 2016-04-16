@@ -16,4 +16,32 @@
 
     </ListView>
 
+    <EditText
+        android:id="@+id/urlE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_name"
+        android:text="http://172.20.10.12:8000"/>
+
+    <TextView
+        android:id="@+id/urlT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/urlE"
+        android:layout_toRightOf="@id/urlE"/>
+
+    <Button
+        android:id="@+id/getB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/urlE"
+        android:text="get test"/>
+
+    <Button
+        android:id="@+id/postB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/getB"
+        android:layout_alignBaseline="@id/getB"
+        android:text="post test"/>
 </RelativeLayout>
